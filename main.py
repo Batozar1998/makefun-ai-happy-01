@@ -4,7 +4,7 @@
 The entry is a program that writes one image to /output/entry.png.
 The image is a happy golden retriever puppy smiling in a sunny
 sunflower meadow — bright, warm, and joyful. The program simply copies
-the image the repository holds (image.png) to the output directory, so
+the image the repository holds (entry.png) to the output directory, so
 both runs write identical bytes.
 
 Standard library only, no network, deterministic.
@@ -16,7 +16,7 @@ import os
 import shutil
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-INPUT_IMAGE = os.path.join(HERE, "image.png")
+INPUT_IMAGE = os.path.join(HERE, "entry.png")
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 
 

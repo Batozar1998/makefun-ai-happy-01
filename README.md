@@ -23,7 +23,7 @@ light, vibrant warm colours, pure joy. The image is 768×768 PNG,
 ## The program
 
 `main.py` is the simplest program the bounty allows: it copies the
-image the repository holds (`image.png`) to the output directory as
+image the repository holds (`entry.png`) to the output directory as
 `entry.png`. Standard library only, no network, deterministic — both
 runs write identical bytes.
 

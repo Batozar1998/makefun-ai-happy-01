@@ -22,7 +22,7 @@ places paid. Deadline Sat 2026-11-14 23:00 WIB (2026-11-14T16:00:00Z).
    limit — so it was resized to 768×768 PNG, 900,641 bytes (under the
    1 MiB limit). A JPEG at the same size was 220 KB but the output
    file is entry.png, so the PNG was kept to match the extension.
-4. Agent wrote main.py: it copies the repository's image.png to
+4. Agent wrote main.py: it copies the repository's entry.png to
    $MAKEFUN_OUTPUT_DIR/entry.png (default /output/entry.png).
    Standard library only, no network, deterministic.
 5. Verified: two runs of main.py write byte-identical entry.png
